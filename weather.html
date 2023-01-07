@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="icon" href="img/c2.png">
+    <link rel="stylesheet" href="css/inc.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="abs">
+    <header>
+        <nav>
+            <div class="logo">
+                <h1 class="op">
+                    Rapid<span>Weather</span><span> </span><i class="fa-solid fa-snowflake"></i>
+                </h1>
+            </div>
+            <div>
+                <button class="openmenu"><img src="./img/home-button.png" style="width: 30px;height: 30px;"></button>
+            </div>
+            <ul class="mainmenu">
+                <li><a class="pq" href="/">Home</a></li>
+                <li><a class="pq" href="/weather">Weather</a></li>
+                <li><a class="pq" href="/about">About</a></li>
+                <div>
+                    <button class="closemenu"><i class='fa fa-close'></i></button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main class="mn">
+        <div class="tf">
+            <form action="" class="mc">
+                <input type="text" id="cityname" placeholder="Enter your City name" autocapitalize="off">
+                <input type="submit" value="search" id="submitbtn">
+            </form>
+        </div>
+        <div class="tempinfo">
+            <div class="top">
+                <p id="day"></p>
+                <p id="todaydata"></p>
+            </div>
+            <div class="bottom">
+                <p id="cn">Get output here!</p>
+                <div class="ml">
+                    <div>
+                        <div class="f">
+                            <div class="icn">
+                                <i class="fa-solid fa-temperature-full ">-</i>
+                            </div>
+                            <div class="dl">
+                                <div><p id="tmp"></p></div><div class="n"><sup>o</sup><span>C</span></div>
+                            </div>
+                        </div>
+                        <div class="f">
+
+                            <div class="icn">
+                                <i class="fa-solid fa-temperature-arrow-up ">-</i>
+                            </div>
+                            <div class="dl">
+                                <div><p id="maxtmp"></p></div><div class="n"><sup>o</sup><span>C</span></div>
+                            </div>
+                        </div>
+                        <div class="f">
+                            <div class="icn">
+                                <i class="fa-solid fa-temperature-arrow-down ">-</i>
+                            </div>
+
+                            <div class="dl">
+                                <div><p id="mintmp"></p></div><div class="n"><sup>o</sup><span>C</span></div>
+                            </div>
+                        </div>
+                    </div>
+        
+                <div>
+                    <div class="og">
+                        <div class="ss">
+                            <div id="tmpstatus"><i class="fa-solid fa-cloud "></i></div>
+                            <div id="tp">
+                                <p></p>
+                            </div>
+
+                        </div>
+                        <div class="ss">
+                            <div id="tmpstatus"><i class="fa-solid fa-cloud-rain "></i></div>
+                            <div id="tp2">
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="ss">
+                            <div id="tmpstatus"><i class="fas fa-wind "></i></div>
+                            <div id="tp3">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <script src="js/index.js"></script>
+    </main>
+    <footer>
+        <div class="vv">
+            <h3>Created by Udai <span><a href="https://instagram.com/udais1ngh?igshid=MDM4ZDc5MmU="><i class="fa-brands fa-instagram"></i></a></span></h3>
+        </div>
+    </footer>
+</body>
