@@ -34,10 +34,11 @@ footer{
     gap: 5px;
 }
 .fl{
-    padding: 200px;
+    padding: 120px;
     display: flex;
     justify-content: center;
    margin: auto;
+   
 }
 
 .fa-snowflake{
@@ -144,8 +145,8 @@ left: 0px;
 
 
 .op{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 0.8cm;
+    font-family: 'Lobster', cursive;
+    font-size: 0.7cm;
     transform: translateX(3px);
     
     
@@ -211,12 +212,16 @@ li{
     list-style: none;
 }
 
+    
+    
+
+
 .pq{
     display: flex;
     text-decoration: none;
     color:black;
     font-size: 0.5cm;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Lobster', cursive;
     padding: 15px;
 }
 li a:hover{
@@ -463,7 +468,7 @@ align-items: center;
 }
     .pp{
       display: inline;
-     transform: translateX(-45%);
+     transform: translateX(-25%);
      width: 300px;
      margin-right: 10px;
      gap: 50px;

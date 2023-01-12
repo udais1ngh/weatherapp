@@ -15,10 +15,6 @@ app.get("/weather",(req,res)=>{
 });
 
 
-app.get("/about",(req,res)=>{
-    res.sendFile(__dirname + "/about.html")
-});
-
 
 app.get("*",(req,res)=>{
     res.send('404 error page')
