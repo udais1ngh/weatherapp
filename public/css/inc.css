@@ -409,6 +409,9 @@ align-items: center;
 }
 @media(max-width:800px)
 {
+    .btn{
+        box-shadow: none;
+    }
     .about{
         width: 250px;
         height: 250px;
